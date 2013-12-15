@@ -6,7 +6,7 @@
 #    By: npineau <npineau@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/12/14 00:01:12 by npineau           #+#    #+#              #
-#    Updated: 2013/12/15 00:49:29 by npineau          ###   ########.fr        #
+#    Updated: 2013/12/15 07:13:36 by npineau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ TREE = hotrace.c \
 	   ft_del_tree.c \
 	   ft_place_node.c \
 	   ft_search_node.c \
+	   ft_swap_node.c \
 	   ft_new_node.c \
 	   ft_putstr.c \
 	   ft_strchr.c \

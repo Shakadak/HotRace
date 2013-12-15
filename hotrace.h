@@ -6,7 +6,7 @@
 /*   By: cheron <cheron@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/14 15:10:34 by cheron            #+#    #+#             */
-/*   Updated: 2013/12/15 06:13:04 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 07:12:48 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,7 @@ t_list	*ft_lstnew(char const *content);
 t_btree	*ft_new_node(char *keyword, char *value);
 t_btree	*ft_place_node(t_btree *current, t_btree *new);
 t_btree	*ft_search_node(t_btree *current, char *clue);
+void	ft_swap_node(t_btree *dest, t_btree *src);
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 void	ft_lstdel(t_list **alst);
 int		ft_lstadd(t_list **alst, char *content);
