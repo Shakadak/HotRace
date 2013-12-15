@@ -6,12 +6,12 @@
 /*   By: cheron <cheron@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/27 15:01:36 by cheron            #+#    #+#             */
-/*   Updated: 2013/12/14 16:21:07 by cheron           ###   ########.fr       */
+/*   Updated: 2013/12/15 05:35:25 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "hot_race.h"
+#include "hotrace.h"
 
 t_list	*ft_lstnew(char const *content)
 {

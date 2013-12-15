@@ -6,11 +6,11 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/11 18:58:06 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:21:15 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 05:35:39 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <string.h>
-#include "hot_race.h"
+#include "hotrace.h"
 /*
 ** Place the node to the left if [new] is lower than [current] according to
 ** ft_tri. To the right if greater (or equal). It return [new] if [current]

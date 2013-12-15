@@ -6,10 +6,10 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/28 15:03:39 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:45:57 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 05:36:27 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "hot_race.h"
+#include "hotrace.h"
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {

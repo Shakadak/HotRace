@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hot_race.h                                         :+:      :+:    :+:   */
+/*   hotrace.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cheron <cheron@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/14 15:10:34 by cheron            #+#    #+#             */
-/*   Updated: 2013/12/15 01:03:42 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 06:13:04 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,8 @@ typedef struct		s_list
 
 t_btree	*ft_get_input(t_btree *root);
 t_btree	*ft_create_tree(t_btree *root, char *keyword, char *value);
-t_list	*ft_get_query(t_list *query);
-void	ft_output_query(t_btree *root, t_list *query);
+void	ft_get_query(t_btree *root);
+void	ft_output_query(t_btree *root, char *query);
 
 int		ft_read_txt(int fd, char **line, char *buff);
 int		ft_check_line(char *buff);

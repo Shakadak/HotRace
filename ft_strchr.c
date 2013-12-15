@@ -6,10 +6,10 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/21 11:42:56 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:40:03 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 05:35:59 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "hot_race.h"
+#include "hotrace.h"
 
 char	*ft_strchr(const char *src, int c)
 {

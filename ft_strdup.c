@@ -6,7 +6,7 @@
 /*   By: cheron <cheron@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/19 13:02:29 by cheron            #+#    #+#             */
-/*   Updated: 2013/12/14 16:38:58 by cheron           ###   ########.fr       */
+/*   Updated: 2013/12/15 05:36:22 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <stdlib.h>
 #endif
 #ifndef HOT_RACE_H
-# include "hot_race.h"
+# include "hotrace.h"
 #endif
 
 char	*ft_strdup(const char *s1)

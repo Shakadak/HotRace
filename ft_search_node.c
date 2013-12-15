@@ -6,11 +6,11 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/14 00:00:34 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:21:05 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 05:35:54 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "hot_race.h"
+#include "hotrace.h"
 #include <string.h>
 #include <stdio.h>
 

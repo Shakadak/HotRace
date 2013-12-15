@@ -6,24 +6,20 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/14 23:13:32 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:12:20 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 06:19:34 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdlib.h>
-#include "hot_race.h"
+#include "hotrace.h"
 
 int		main(void)
 {
 	t_btree	*root;
-	t_list	*query;
 
 	root = NULL;
-	query = NULL;
 	root = ft_get_input(root);
-	query = ft_get_query(query);
-	ft_output_query(root, query);
+	ft_get_query(root);
 	ft_del_tree(&root);
-	ft_lstdel(&query);
 }
 
 t_btree	*ft_get_input(t_btree *root)
@@ -64,7 +60,7 @@ t_btree	*ft_create_tree(t_btree *root, char *keyword, char *value)
 	return (root);
 }
 
-t_list	*ft_get_query(t_list *query)
+void	ft_get_query(t_btree *root)
 {
 	char	*keyword;
 	int		k;
@@ -76,24 +72,22 @@ t_list	*ft_get_query(t_list *query)
 		get_next_line(0, &keyword);
 		k = (keyword[0] == '\0' ? 0 : 1);
 		if (keyword[0] != '\0')
-			ft_lstadd(&query, keyword);
+			ft_output_query(root, keyword);
 	}
-	return (query);
 }
 
-void	ft_output_query(t_btree *root, t_list *query)
+void	ft_output_query(t_btree *root, char *query)
 {
 	t_btree	*result;
 
 	if (query == NULL)
 		return ;
-	ft_output_query(root, query->next);
-	result = ft_search_node(root, query->content);
+	result = ft_search_node(root, query);
 	if (result)
 		ft_putendl(result->value);
 	else
 	{
-		ft_putstr(query->content);
+		ft_putstr(query);
 		ft_putendl(": Not found.");
 	}
 }

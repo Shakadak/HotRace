@@ -6,7 +6,7 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/19 13:08:08 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:46:10 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 05:36:05 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 char	*ft_strcpy(char *copy, const char *src)

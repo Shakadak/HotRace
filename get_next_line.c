@@ -6,10 +6,10 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/06 16:16:06 by npineau           #+#    #+#             */
-/*   Updated: 2013/12/15 00:41:56 by npineau          ###   ########.fr       */
+/*   Updated: 2013/12/15 06:21:02 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "hot_race.h"
+#include "hotrace.h"
 #ifndef UNISTD_H
 # define UNIST_H
 # include <unistd.h>
@@ -115,10 +115,7 @@ int		ft_cp_buff(char **line, char *buff)
 
 int		ft_init_line(char **line)
 {
-	if (*line)
-		ft_strclr(*line);
-	else
-		*line = ft_strnew(0);
+	*line = ft_strnew(0);
 	if (!*line)
 		return (-1);
 	return (0);
